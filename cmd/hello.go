@@ -1,5 +1,5 @@
 /*
-Copyright © 2023 NAME HERE <EMAIL ADDRESS>
+Copyright © 2023 Elevator Robot
 
 */
 package cmd
@@ -17,15 +17,11 @@ var helloCmd = &cobra.Command{
 	Use:   "hello",
 	Short: "See what BeeBoop is up to today!",
 	Long:  `Say hello to a friendly little robot who is trying to become a human.`,
-	Run: func(cmd *cobra.Command, args []string) {
-		// fmt.Println("hello called")
-	},
+	Run:   func(cmd *cobra.Command, args []string) { speek() },
 }
 
 func init() {
 	rootCmd.AddCommand(helloCmd)
-
-	speek()
 }
 
 // create a function that outputs random quotes
