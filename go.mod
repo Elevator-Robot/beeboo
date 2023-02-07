@@ -1,4 +1,4 @@
-module github.com/elevator-robot/beeboop
+module github.com/elevator-robot/beeboo
 
 go 1.20
 
