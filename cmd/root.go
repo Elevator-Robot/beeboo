@@ -13,12 +13,15 @@ import (
 var rootCmd = &cobra.Command{
 	Use:   "beeboo",
 	Short: "A brief description of your application",
-	Long: `Meet beeboo, the CLI with a BZZZ-tastic personality!
-This little guy may be small in size, but he's got big aspirations.
-beeboo dreams of one day transforming from a simple code machine into a real live human boy.
-Can you imagine a CLI with a love for honey, flowers, and adventure?
-It's like a scene straight out of a Disney movie! With his determination and can-do spirit, beeboo is on a mission to make his wildest dreams come true.
-So buzz on over and join in on the fun with beeboo, the CLI with a heart of honey and a smile as sweet as nectar. Just dont let'm use knives :)`,
+	Long: `
+___  ____ ____ ___  ____ ____ 
+|__] |___ |___ |__] |  | |  | 
+|__] |___ |___ |__] |__| |__| 
+____ ____ ____ ____ ____ ____
+
+
+A CLI with a BZZZ-tastic personality!
+`,
 }
 
 // Execute adds all child commands to the root command and sets flags appropriately.
